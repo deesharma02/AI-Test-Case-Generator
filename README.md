@@ -37,6 +37,7 @@ project/
 │── main.py
 │── requirements.txt
 │── README.md
+│── .gitignore
 ```
 
 ---
@@ -56,11 +57,22 @@ cd your-project
 pip install -r requirements.txt
 ```
 
+### 3️⃣ Set up environment variables 🔐
+
+This project requires API keys to run.
+
+Create a `.env` file in the root directory and add the following:
+
+```env
+GOOGLE_API_KEY=your_google_api_key
+
 ### 3️⃣ Run the app
 
 ```bash
 streamlit run app.py
 ```
+
+
 
 ---
 
