@@ -65,6 +65,9 @@ Create a `.env` file in the root directory and add the following:
 
 ```env
 GOOGLE_API_KEY=your_google_api_key
+```
+
+You can refer to the .env.example file for the required environment variables.
 
 ### 3️⃣ Run the app
 
